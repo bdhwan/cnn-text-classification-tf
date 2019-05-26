@@ -66,3 +66,9 @@ Replace the checkpoint dir with the output from the training. To use your own da
 
 - [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882)
 - [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1510.03820)
+
+
+
+
+##도커 활용시
+docker run -ti --rm -p 6006:6006 --mount source=/Users/bdhwan/git/tensorflow,target=/home,type=bind tensorflow/tensorflow:devel-py3 bash
